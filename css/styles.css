@@ -1,0 +1,274 @@
+
+:root {
+    --title-color:#2E2F42;
+    --text-color: #434455;
+    --button-span-color:#4D5AE5;
+
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+/*------------------ HEADER -----------------*/
+.header {
+}
+.header-navigation {
+}
+.header-logo {
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #2E2F42;
+}
+.header-web {
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--button-span-color);
+}
+.header-list {
+}
+.header-item {
+
+}
+.header-link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.header-link:hover{
+    text-decoration: underline;
+
+
+}
+.header-link:focus{
+    text-decoration: underline;
+
+}
+
+.header-contact {
+}
+.header-mail {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+
+}
+.header-tel {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.6;
+letter-spacing: 0.02em;
+color: #434455;
+}
+/*--------------------- MAIN -------------*/
+.main {
+    background: #E5E5E5;
+}
+/* -----------------------ORDER ----------------*/
+.order {
+background: #2E2F42;
+}
+.order-title {
+font-weight: 600;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+.order-btn {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+    background: var(--button-span-color);
+}
+/* ---------------------ABOUT----------------- */
+.about {
+}
+.about-title {;
+}
+.about-list {
+}
+.about-item {
+}
+.abuot-subtitle {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.about-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--text-color);
+}
+/* ---------------------DOING ------------*/
+.doing {
+}
+.doing-title {
+font-weight: 600;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--title-color);
+}
+.doing-list {
+}
+.doing-iten {
+}
+/* -----------------TEAM ------------------------*/
+.team {
+    background: #F4F4FD;
+}
+.team-title {
+font-weight: 600;
+font-size: 36px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--title-color);
+}
+.team-list {
+}
+.team-iten {
+}
+.team-subtitle {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--title-color);
+}
+.team-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--text-color);
+
+}
+/* ------------BUTTON------------ */
+.button {
+}
+.button-title {
+}
+.button-list {
+}
+
+.button-iten {
+
+}
+.button-btn-blue {
+font-family: inherit;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+cursor: pointer;
+background: #404BBF;
+}
+.button-btn {
+font-family: inherit;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: var(--button-span-color);
+cursor: pointer; 
+background: #F4F4FD;
+}
+/*------------------------ WORK------------------------ */
+.work {
+}
+.work-title {
+}
+.work-list {
+}
+.work-iten {
+
+}
+
+.work-subtitle {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--title-color);
+}
+.work-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--text-color);
+}
+
+
+
+/* -------------------------FOOTER--------------------- */
+.footer-link {
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+color: #F4F4FD;    
+
+}
+.footer-web {
+    font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+color: var(--button-span-color);
+}
+.footer {
+
+background: #2E2F42;
+}
+.footer-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #E7E9FC;
+}

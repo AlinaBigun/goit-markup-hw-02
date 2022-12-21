@@ -36,6 +36,7 @@ body {
 .header-navigation {
 }
 .header-logo {
+font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.33;
@@ -44,6 +45,7 @@ text-transform: uppercase;
 color: #2E2F42;
 }
 .header-web {
+font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.33;
@@ -184,18 +186,19 @@ letter-spacing: 0.02em;
 color: var(--text-color);
 
 }
-/* ------------BUTTON------------ */
-.button {
-}
-.button-title {
-}
-.button-list {
+/* ------------WORK------------ */
+.work {
 }
 
-.button-iten {
+.work-button-title {
+}
+.work-button-list {
+}
+
+.work-button-iten {
 
 }
-.button-btn-blue {
+.work-button-btn-blue {
 font-family: inherit;
 font-weight: 600;
 font-size: 16px;
@@ -205,7 +208,7 @@ color: #FFFFFF;
 cursor: pointer;
 background: #404BBF;
 }
-.button-btn {
+.work-button-btn {
 font-family: inherit;
 font-weight: 600;
 font-size: 16px;
@@ -215,9 +218,8 @@ color: var(--button-span-color);
 cursor: pointer; 
 background: #F4F4FD;
 }
-/*------------------------ WORK------------------------ */
-.work {
-}
+
+
 .work-title {
 }
 .work-list {
@@ -266,7 +268,6 @@ color: var(--button-span-color);
 background: #2E2F42;
 }
 .footer-text {
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;

@@ -15,7 +15,9 @@ body {
 }
 .link {
     text-decoration: none;
+
 }
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -28,7 +30,7 @@ body {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-  }
+}
 
 /*------------------ HEADER -----------------*/
 .header {
@@ -65,7 +67,7 @@ color: var(--button-span-color);
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.header-link:hover{
+.header-link :hover {
     text-decoration: underline;
 
 
@@ -78,7 +80,6 @@ color: var(--button-span-color);
 .header-contact {
 }
 .header-mail {
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -86,7 +87,6 @@ color: #434455;
 
 }
 .header-tel {
-font-weight: 400;
 font-size: 16px;
 line-height: 1.6;
 letter-spacing: 0.02em;
@@ -179,7 +179,6 @@ letter-spacing: 0.02em;
 color: var(--title-color);
 }
 .team-text {
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -236,7 +235,6 @@ letter-spacing: 0.02em;
 color: var(--title-color);
 }
 .work-text {
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
